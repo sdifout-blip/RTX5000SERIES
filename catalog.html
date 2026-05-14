@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RTX 50 SERIES | Каталог</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Фиксы для стабильности верстки */
+        .container { display: block !important; width: 100%; }
+        
+        header {
+            padding: 1.5rem 5%;
+            border-bottom: 1px solid var(--border);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: var(--bg-dark);
+        }
+        header .logo { color: var(--nv-green); font-weight: bold; text-decoration: none; font-size: 1.2rem; }
+        header nav { display: flex; gap: 2rem; }
+        header nav a { text-decoration: none; color: #8b949e; font-size: 0.9rem; }
+        header nav a:hover { color: white; }
+
+        .spec-item { display: flex; justify-content: space-between; margin-bottom: 0.8rem; font-size: 0.9rem; }
+        .spec-label { color: #8b949e; }
+        
+        .dns-price-block {
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid var(--border);
+            padding: 1.5rem;
+            border-radius: 12px;
+            margin-top: 1.5rem;
+        }
+        .dns-label { font-size: 0.7rem; color: #f37021; font-weight: bold; text-transform: uppercase; margin-bottom: 0.5rem; }
+        .price-value { font-size: 1.8rem; font-weight: bold; color: #fff; margin-bottom: 0.3rem; }
+        .status { font-size: 0.8rem; display: flex; align-items: center; gap: 6px; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <a href="index.html" class="logo">RTX 5000 SERIES</a>
+        <nav>
+            <a href="index.html">Дашборд</a>
+            <a href="catalog.html" style="color: white;">Каталог</a>
+            <a href="tech.html">Технологии</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h2>Доступные конфигурации <span style="color:var(--nv-green)">Blackwell</span></h2>
+        
+        <div class="gpu-grid">
+            <!-- RTX 5090 -->
+            <div class="gpu-card">
+                <img src="img/5090п.jpg" alt="RTX 5090" style="width: 100%; border-radius: 16px; margin-bottom: 1rem;">
+                <div class="tag" style="background: rgba(162, 255, 0, 0.2); color: var(--nv-green);">Ultimate</div>
+                <h3 style="color: #76B900;">Palit GeForce RTX 5090 GameRock</h3>
+                <div style="margin: 1.5rem 0;">
+                    <div class="spec-item"><span class="spec-label">Память</span><span>32 ГБ GDDR7</span></div>
+                    <div class="spec-item"><span class="spec-label">Шина</span><span>512-bit</span></div>
+                    <div class="spec-item"><span class="spec-label">TGP</span><span>575W</span></div>
+                </div>
+                <div class="dns-price-block">
+                    <a href="https://www.dns-shop.ru/product/dab5d7dedf90d582/videokarta-palit-geforce-rtx-5090-gamerock-ne75090019r5-gb2020g/" target="_blank" style="text-decoration: none; color: inherit;">   
+                    <div class="dns-label">Цена в DNS</div>
+                    <div class="price-value">от 389 999 ₽</div>
+                    <div class="status" style="color: var(--nv-green);">● В наличии: по предзаказу</div>
+                    </a>
+                </div>
+            </div>
+
+            <!-- RTX 5080 -->
+            <div class="gpu-card">
+                <img src="img/5080.jpg" alt="RTX 5080" style="width: 100%; border-radius: 16px; margin-bottom: 1rem;">
+                <div class="tag" style="background: rgb(0, 6, 83); color: var(--nv-blue);">High-End</div>
+                <h3 style="color: #76B900;">Palit GeForce RTX 5080 GamingPro OC</h3>
+                <div style="margin: 1.5rem 0;">
+                    <div class="spec-item"><span class="spec-label">Память</span><span>16 ГБ GDDR7</span></div>
+                    <div class="spec-item"><span class="spec-label">Шина</span><span>256-bit</span></div>
+                    <div class="spec-item"><span class="spec-label">TGP</span><span>360W</span></div>
+                </div>
+                <div class="dns-price-block">
+                    <a href="https://www.dns-shop.ru/product/ffeedbf2d499d9cb/videokarta-palit-geforce-rtx-5080-gamingpro-oc-ne75080s19t2-gb2031a/" target="_blank" style="text-decoration: none; color: inherit;">
+                    <div class="dns-label">Цена в DNS</div>
+                    <div class="price-value">от 119 999 ₽</div>
+                    <div class="status" style="color: var(--nv-green);">● В наличии</div>
+                    </a>
+                </div>
+            </div>
+
+            <!-- RTX 5070 -->
+            <div class="gpu-card">
+                <img src="img/5070.jpg" alt="RTX 5070" style="width: 100%; border-radius: 16px; margin-bottom: 1rem;">
+                <div class="tag" style="background: rgb(1, 76, 82); color: #00ffc8;">Balanced</div>
+                <h3 style="color: #76B900;">Palit GeForce RTX 5070 Infinity 3</h3>
+                <div style="margin: 1.5rem 0;">
+                    <div class="spec-item"><span class="spec-label">Память</span><span>12 ГБ GDDR7</span></div>
+                    <div class="spec-item"><span class="spec-label">Шина</span><span>192-bit</span></div>
+                    <div class="spec-item"><span class="spec-label">TGP</span><span>250W</span></div>
+                </div>
+                <div class="dns-price-block">
+                    <a href="https://www.dns-shop.ru/product/b58aaa7e00a9d582/videokarta-palit-geforce-rtx-5070-infinity-3-ne75070019k9-gb2050s/" target="_blank" style="text-decoration: none; color: inherit;">
+                    <div class="dns-label">Цена в DNS</div>
+                    <div class="price-value">от 57 999 ₽</div>
+                    <div class="status" style="color: var(--nv-green);">● В наличии</div>
+                    </a>
+                </div>
+            </div>
+
+            <!-- RTX 5060 -->
+            <div class="gpu-card">
+                <img src="img/5060.jpg" alt="RTX 5060" style="width: 100%; border-radius: 16px; margin-bottom: 1rem;">
+                <div class="tag" style="background: rgb(95, 4, 60); color: #ff00bf;">Mainstream</div>
+                <h3 style="color: #76B900;">Palit GeForce RTX 5060 Dual</h3>
+                <div style="margin: 1.5rem 0;">
+                    <div class="spec-item"><span class="spec-label">Память</span><span>8 ГБ GDDR7</span></div>
+                    <div class="spec-item"><span class="spec-label">Шина</span><span>128-bit</span></div>
+                    <div class="spec-item"><span class="spec-label">TGP</span><span>145W</span></div>
+                </div>
+                <div class="dns-price-block">
+                    <a href="https://www.dns-shop.ru/product/701949711f27d9cb/videokarta-palit-geforce-rtx-5060-dual-ne75060019p1-gb2063d/" target="_blank" style="text-decoration: none; color: inherit;">
+                    <div class="dns-label">Цена в DNS</div>
+                    <div class="price-value">от 30 999 ₽</div>
+                    </a>
+                    <div class="status" style="color: var(--nv-green);">● В наличии</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Технологии RTX 50</title>
+    <style>
+        .container { display: block !important; width: 100%; }
+        header {
+            padding: 1.5rem 5%;
+            border-bottom: 1px solid var(--border);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: var(--bg-dark);
+        }
+        header a { text-decoration: none; color: #8b949e; font-size: 0.9rem; }
+        header .logo { color: var(--nv-green); font-weight: bold; font-size: 1.2rem; }
+        header nav { display: flex; gap: 2rem; }
+        header nav a:hover { color: white; }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo">RTX 5000 SERIES</a>
+        <nav>
+            <a href="index.html">Дашборд</a>
+            <a href="catalog.html">Каталог</a>
+            <a href="tech.html" style="color: white;">Технологии</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h2>Инновации <span style="color:var(--nv-green)">Экосистемы</span></h2>
+        
+        <div class="tech-grid">
+            <div class="tech-card">
+                <div class="tech-icon">✦</div>
+                <div class="tech-info">
+                    <h3>DLSS 4: Neural Graphics</h3>
+                    <p>Полная реконструкция сцены с помощью ИИ. Теперь видеокарта не просто дорисовывает пиксели, а предсказывает движение объектов.</p>
+                </div>
+            </div>
+
+            <div class="tech-card">
+                <div class="tech-icon">◈</div>
+                <div class="tech-info">
+                    <h3>Ray Tracing: Overdrive</h3>
+                    <p>Четвертое поколение ядер RT. Реалистичный свет с бесконечными отскоками становится стандартом для игр.</p>
+                </div>
+            </div>
+
+            <div class="tech-card">
+                <div class="tech-icon">⚡</div>
+                <div class="tech-info">
+                    <h3>NVIDIA Reflex 2.0</h3>
+                    <p>Снижение задержки ввода до теоретического минимума для киберспорта мирового уровня.</p>
+                </div>
+            </div>
+
+            <div class="tech-card">
+                <div class="tech-icon">☁</div>
+                <div class="tech-info">
+                    <h3>NVIDIA Studio & AV1</h3>
+                    <p>Двойные энкодеры пятого поколения. Стриминг и рендеринг видео в 10 раз быстрее.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
